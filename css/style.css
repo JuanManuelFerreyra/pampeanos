@@ -19,7 +19,7 @@
 
 body {
     background-color: rgb(240, 237, 255);
-
+    font-size: 16px;
 }
 
 .header {
@@ -137,16 +137,9 @@ body {
 }
 
 
-.cards {
-    margin-top: 3rem;
-    align-items: center;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
 .contanier__cards {
     min-width: 33.33%;
+
 }
 
 .conteiner__cards img {
@@ -154,7 +147,9 @@ body {
 }
 
 .footer {
-    min-height: 200px;
+    min-height: 5rem;
+    padding: 2rem;
+    margin-top: 2rem;
     background-color: rgb(128, 128, 128);
 
     justify-content: space-between;
@@ -201,7 +196,7 @@ body {
 }
 
 .inputs {
-    
+
     margin-bottom: 0.5rem;
 }
 
@@ -216,8 +211,7 @@ body {
     justify-content: space-between;
 }
 
-.info__links {
-}
+.info__links {}
 
 .info__links i {
     font-size: 5.3rem;
